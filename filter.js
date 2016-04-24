@@ -1,0 +1,14 @@
+$(function(){
+	$("#btn_film").click(function(){
+		$(".programm").find("li").not(".film").hide("slow");
+		$(".programm").find(".film").show();
+	});
+	$("#btn_serial").click(function(){
+		$(".programm").find("li").hide("slow");
+		$(".programm").find(".serial").show();
+	});
+	$("#btn_sport").click(function(){
+		$(".programm").find("li").hide("slow");
+		$(".programm").find(".sport").show();
+	});
+});

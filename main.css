@@ -1,0 +1,113 @@
+     
+          
+          div {
+			  
+			  }
+		   .header {
+		      overflow: auto;
+			  background: linear-gradient(to top, #FFFFFF, #D8D8D8);
+			  font-family: 'Lobster', cursive;
+			  font-size:50px;
+			  text-shadow:15px 10px 6px #BDBDBD;
+			  }
+		   .header h1 {
+		        width: 30%;
+				float: right;
+				text-align: center;
+				margin-right: 0px;
+				color: #424242;
+			}
+			.header, .menu, .programm{
+			    padding:0 10%;
+			}	   
+		   .header img {
+		        float: left;   
+		        width: 250px;
+		        height: 250px;
+				margin-bottom:10px;
+				margin-top:13px;
+		   }
+		   ul{
+		         list-style: none;
+				 padding: 0;}
+			.menu{
+				 font-family: 'Noto Serif', serif;
+				 font-size:16px;
+			     }
+			.menu li {
+			     display: inline-block;
+				 margin-right:5px;
+				 }
+			.filter li{
+				 margin-right:10px;
+			     }
+		    .channel {
+			     display:inline-block;
+				 vertical-align:top;
+				 width:32%;
+				 font-family: 'Noto Serif', serif;
+				 font-size:15px;
+				 overflow:hidden;
+				 overflow-y:scroll;
+		         height:300px;
+                 margin-top:20px;
+			     }
+		    .channel li{
+			     position:relative;
+			     }
+			.channel li:hover p{
+			     display:block;
+			     }
+			.channel li span{
+				 z-index:1;
+			     }
+			.channel li p{
+			     position:absolute;
+				 top: -35px;
+				 left: 125px;
+				 background-color: #D1FFDA;
+				 width: 200px;
+				 display: none;
+				 z-index: 5;
+				 }
+		    .channel img{
+				float:left; 
+			     width:auto; 
+			     height:45px;
+			     } 
+		    .programm  h2{
+				font-size:25px; 
+			     float:right;
+			     }
+			.date{
+				 display:inline-block;
+				 width: auto;
+                 height: 20px;
+                 margin: 4px;
+				 border-radius: 4px;
+				 background: #F79F81;
+				 padding:6px;
+			     }
+		    .date a{
+				 text-decoration: none;
+			     padding-bottom: 2px;
+				 }
+			a:visited{
+				color:blue;
+			     }
+			.interesting{
+				padding-right:150px;
+			     }
+		    .interesting img{
+				 float:right;
+				 width:auto;
+				 height:80px;
+				 margin:3px;
+				 border:1px solid black;
+			     }
+			.footer{
+				padding-top:15px;
+				padding-bottom:20px;
+				text-align:center;
+				cursor:pointer;
+				}
